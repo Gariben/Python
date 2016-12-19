@@ -81,7 +81,7 @@ while True:
 	if bNextPage == False:
 		break;
 	else:
-		r = requests.get('https://www.googleapis.com/youtube/v3/commentThreads?pageToken=' + nextPageToken + '&part=snippet&videoId=FOw7ViIp25A&maxResults=' + str(iNumMaxResults) + '&key=' +api_key)
+		r = requests.get('https://www.googleapis.com/youtube/v3/commentThreads?pageToken=' + nextPageToken + '&part=snippet&videoId=' + video_id + '&maxResults=' + str(iNumMaxResults) + '&key=' +api_key)
 		r.raise_for_status()
 		
 print("Execution Completed.")
