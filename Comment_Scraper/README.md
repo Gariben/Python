@@ -11,7 +11,7 @@ It also provides console output while combing through the many pages.
 
 Simply provide an api key for the **api_key** value and a youtube id (found at the end of the url) for the **video_id** value.
 
-###Background
+### Background
 
 this was inspired by a contest youtuber Rob Chapman held to win a case of Mooer guitar pedals. 
 To win the contest you had correctly guess Rob and two of his staffers' weights. 
@@ -24,7 +24,7 @@ but there has been a few articles here and there showing that people are never b
 
 If I recall correctly **our final value was within 8% of being correct**. You can double check with the sample output again Rob's response to make sure.
 
-###Special Thanks
+### Special Thanks
 
 To **Hargle8** for the idea to create the script, 
 and to **Ellun** for helping me out with API stuff.
