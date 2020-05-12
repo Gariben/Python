@@ -15,6 +15,11 @@ difficulty of one finger to another based on the context. The metric used is how
 must make in order to make the movement. These values are comparative, as to avoid further subjectivity from attempting to determine an objective value for each.
 These tables will remain configurable should these values change, or if one wishes to eventually compare the results of different values.
 
+###### Initial Table:
+
+![Initial Table](https://raw.githubusercontent.com/Gariben/Python/master/Mothers/README-images/ascending.PNG)
+
+###### Code Representation:
 ```
 ascending[1][2] = 1
 ascending[1][3] = 4
@@ -33,6 +38,11 @@ ascending[4][2] = 10
 ascending[4][3] = 9
 
 ```
+
+###### Table print():
+
+![Python Table](https://raw.githubusercontent.com/Gariben/Python/master/Mothers/README-images/ascending-python.PNG)
+
 
 ### Step 2: Exercise Simulation
 
