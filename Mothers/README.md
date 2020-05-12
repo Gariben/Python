@@ -15,6 +15,25 @@ difficulty of one finger to another based on the context. The metric used is how
 must make in order to make the movement. These values are comparative, as to avoid further subjectivity from attempting to determine an objective value for each.
 These tables will remain configurable should these values change, or if one wishes to eventually compare the results of different values.
 
+```
+ascending[1][2] = 1
+ascending[1][3] = 4
+ascending[1][4] = 6
+
+ascending[2][1] = 7
+ascending[2][3] = 3
+ascending[2][4] = 5
+
+ascending[3][1] = 11
+ascending[3][2] = 8
+ascending[3][4] = 3
+
+ascending[4][1] = 12
+ascending[4][2] = 10
+ascending[4][3] = 9
+
+```
+
 ### Step 2: Exercise Simulation
 
 Once the `ascending`, `descending`, and `rolling` tables have been determined, simulations of all finger patterns' movements will be simulated,
